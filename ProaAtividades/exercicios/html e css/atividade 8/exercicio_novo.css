@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+main {
+    position: relative;
+    background-color: rgb(243, 132, 169);
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+main > * {
+    margin-bottom: 10px;
+}
+header {
+    background-color: rgb(148, 235, 62);
+    height: 100px;
+    background-image: url("imagens/guitarras_header.jpg");
+}
+
+p {padding: 10px;}
+
+#section_limao {
+    position: relative;
+    background-color: red;
+    width: 100%;
+    height: 250px;
+}
+#rosa1 {
+    position: relative;
+    float: left;
+    margin: 30px 140px auto;
+    background-color: rgba(255, 255, 255, 0.555);
+    width: 30%;
+    height: 200px;
+}
+#rosa2 {
+    position: relative;
+    background-color: rgba(183, 140, 226, 0.555);
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 30px 15px auto;
+    background-image: url("imagens/loja.jpg");
+    Background-size: cover; 
+  
+    
+}
+#aside_principal {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+}
+.aside{
+    position: relative;
+    float: left;
+    background-color: white;
+    margin: 28px;
+    width: 20%;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+#imagem {
+    background-color: rgb(253, 114, 0);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+
+#aside_segundaria > aside#aside2 {
+    background-color: green;
+}
+#aside_segundaria > aside#aside1 {
+    text-align: center  ;
+}
+#aside_segundaria > aside {
+    
+    float: left;
+    margin: 10px 40px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin: 50px 80px;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color:white;
+}
+
+#guitarra1{
+    
+    float: left;
+    
+    Background-size: cover; 
+  
+    margin:auto;
+   
+    margin: 28px;
+    width: 20%;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+
+
+
+#quadradoteste{
+    background-color: white;
+    position: relative;
+    float: left;
+    background-color: white;
+    margin: 28px;
+    width: 20%;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+
+}
+
+#quadradorosa{
+    background-color: rgb(245, 169, 169);
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    
+    margin-right: 10px;
+    width: 30%;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center; 
+    
+
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
+.guitarra1{
+    width: 20%;
+    height: 250px;
+    margin: 28px;
+    text-align: center;
+}
+ 
+
+
+.vermelho{
+    color :red;
+    font-weight: bold;
+}
+
+.rosa{
+    width: 250px;
+
+}
+
+nav a{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:brown;
+    margin: 0px;
+}
+
+.quadradobranco{
+    background-color: rgb(116, 114, 114);
+    width: 2225px;
+    height: 300px;
+    text-align: center;
+    
+    
+
+}
+
+#fundobranco{
+    background-color: gray;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fundobranco >div >img{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+
+.psecundario{
+    color:black;
+    font-size: 2em;
+    color: rgb(4, 4, 85);
+}
+
+footer{
+    background-color: black;
+    height: 150px;
+    text-align: center;
+
+
+}
+.imagesfooter{
+    display:flex;
+    align-items: center;
+    
+    justify-content: center;
+
+}
+
+.imagesfooter> div> img{
+
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+
+}
+
+h5{
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+footer >p{
+    margin: 0px;
+    font-size: 10px;
+
+}
+
+
+ /* visualização mobile */
+ @media only screen and (max-width:480px){
+    header{
+
+       width: 100%;
+       
+    }
+
+    nav{
+        height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+    
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    color:brown;
+    margin: 20px;
+}
+   #section_limao {
+    display: flex;
+    flex-direction: row;
+   
+    
+   }
+    
+   
+   }
+    

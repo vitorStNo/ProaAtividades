@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando tags  de formularios</title>
+    <style>
+        input{
+            border-radius: 4px;   /*arredondar bordar do formulario */
+        }
+    </style>
+</head>
+<body>
+    <form name = "form" id="form">
+        <fieldset>
+            <legend> cadastro </legend>
+                <label>entre com  o seu nome</label>
+                <input type = "text" name="nome" maxlength="50"  size = "50" required placeholder="digite seu nome aqui..." />
+                <br /> <br   />
+                
+                <label>entre com o seu email</label>
+                <input type = "text" name="nome" maxlength="50"  size = "50" required placeholder="digite seu email aqui..." />
+                <br /><br/>
+
+                <label>entre com  a sua senha</label>
+                <input type = "password" name="senha" 
+                maxlength="10"  size = "10" />
+                <br /><br/>
+
+                <label> você utiliza nosso site frequentemente?
+                    <input type="radio" name="resp" value="sim" />sim
+                    <input type="radio" name="resp" value="não" />não
+                    <input type="radio" name="resp" value="talvez" />talvez   
+                    <br /><br/>
+                    
+                    <label>qual navegador  voce costuma utilizar
+                        <input type="checkbox" name="opção" value = "fire" />firefox
+                        <input type="checkbox" name="opção2" value = "chro" />chrome
+                        <input type="checkbox" name="opção3" value = "ed" />edge
+                        <input type="checkbox" name="opção4" value = "safa" />safari
+                        <input type="checkbox" name="opção5" value = "oper" />opera
+                        <br /><br/>
+
+                        <label>Selecione uma area de atuação:
+                            <select name ="opcao">
+                                <option>marketing</option>
+                                <option>comercial</option>
+                                <option>vendas</option>
+                                <option>web</option>
+                                <option>admistraçao</option>
+                                <br /><br/>
+                            
+                            </select>
+                            <label>entre com o numero</label>
+                            <input type="number" min="0" max="10" />
+                            <br /><br />
+
+                            <label>selecione uma data</label>
+                            <input type="date"  />
+                            
+
+                            <input type="search" url="#" />
+                            <br /><br />
+
+                            <label> escolha sua cor</label>
+                            <input type="color" />
+                            <br /><br />
+
+                            <progress value="80" max="100"  >50%</progress>
+                            <br /><br />
+
+                            <meter min="0" max="100" low="40"  high="90" optimum="100" value="100" ></meter>
+                            <br /><br />
+                            
+                            <label>deixe aqui seu comentario </label>
+                            <br /><br  />
+                            <textarea placeholder="comente aqui:" width="10"  height="40" ></textarea>
+                            <br /><br  />
+
+
+                            
+                  <input type="submit" value ="enviar"  />
+            
+        </label>
+                        
+    </label>
+    
+
+</label>
+
+            
+        </fieldset>
+    </form>
+</body>
+</html>
